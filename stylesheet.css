@@ -1,0 +1,55 @@
+* {
+  text-align: center;
+  background-color: #acfadf;
+  margin: 0;
+}
+.divHead h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+  margin-bottom: 2px;
+  margin-top: 7rem;
+}
+.div2 {
+  font-family: "Special Elite", cursive;
+  font-size: 1.3rem;
+  margin: 0;
+}
+#one {
+  width: auto;
+  height: 350px;
+}
+#two {
+  width: auto;
+  height: 150px;
+}
+.self h2,
+.mySkills h2 {
+  font-family: "Handjet", cursive;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.self p {
+  font-family: "REM", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: larger;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #a4b494;
+  border-width: 7px;
+  margin: 80px auto;
+  width: 14%;
+}
+.mySkills h3 {
+  font-family: "Darker Grotesque", sans-serif;
+    margin: 20px ;
+    /* width: 80%;
+    text-align: left; */
+    
+}
+.mySkills{
+    margin: auto 220px;
+}
