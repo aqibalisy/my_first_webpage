@@ -80,6 +80,25 @@ hr {
   font-family: "REM", sans-serif;
   font-size: larger;
 }
+a {
+  color: rgb(14, 234, 234);
+  background-color: rgb(0, 52, 92);
+  
+}
+.footerBtn {
+  background-color: rgb(0, 52, 92);
+  height: 150px;
+}
+.footerBtn button{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+.links{
+  background-color:  rgb(0,52,92);
+  height: 150px;
+  width: auto;
+}
 .custom-btn {
   width: 130px;
   height: 40px;
@@ -98,7 +117,6 @@ hr {
    4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
 }
-
 .btn-12{
   position: relative;
   right: 20px;
@@ -112,8 +130,8 @@ hr {
   perspective: 230px;
 }
 .btn-12 span {
-  background: rgb(0,172,238);
-background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  background: rgb(29, 91, 116);
+background: linear-gradient(0deg, rgb(7, 121, 166) 0%, rgb(3, 75, 106) 100%);
   display: block;
   position: absolute;
   width: 130px;
@@ -168,15 +186,3 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
-.footer {
-  background: #000;
-  height: 200px;
-  width: auto;
-}
-.footerBtn {
-  padding: 20px;
-}
-a {
-  color: aqua;
-}
-
