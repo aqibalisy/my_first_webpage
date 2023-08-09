@@ -120,8 +120,8 @@ hr {
   width: 130px;
   height: 40px;
   line-height: 42px;
-  -webkit-perspective: 230px;
-  perspective: 230px;
+  /* -webkit-perspective: 230px; */
+  /* perspective: 230px; */
 }
 
 .btn-12 span {
@@ -145,7 +145,7 @@ background: linear-gradient(0deg, rgb(2, 127, 77) 0%, rgb(1, 78, 55) 100%);
 
 .btn-12 span:nth-child(1) {
   box-shadow: -7px -7px 20px 0px rgba(0, 0, 0, 0.6), -4px -4px 5px 0px #fff9,
-    7px 7px 20px 0px rgb(2, 85, 85), 4px 4px 5px 0px #0001;
+    7px 7px 20px 0px rgb(2, 85, 85), 4px 4px 5px 0px rgba(2, 90, 72, 0.067);
   -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   transform: rotateX(90deg);
@@ -164,15 +164,15 @@ background: linear-gradient(0deg, rgb(2, 127, 77) 0%, rgb(1, 78, 55) 100%);
 }
 
 .btn-12:hover span:nth-child(1) {
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 2px 2px 2px 0px rgba(3, 82, 47, 0.5),
+    7px 7px 20px 0px rgba(21, 207, 58, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
 
 .btn-12:hover span:nth-child(2) {
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+  box-shadow: inset 2px 2px 2px 0px rgba(24, 209, 92, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   color: transparent;
   -webkit-transform: rotateX(-90deg);
