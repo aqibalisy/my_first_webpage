@@ -67,6 +67,7 @@ hr {
 .mySkills p {
   font-family: 'REM', sans-serif;
   font-size: larger;
+  /* float: left; */
 }
 
 .last h3 {
@@ -239,4 +240,9 @@ color: #77DDF6;
 }
 .coffee {
   height:60px;
+}
+.mySkills  img{
+  float: 2;
+  width: 150px;
+  height: 150px;
 }
